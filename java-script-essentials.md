@@ -10,7 +10,7 @@
   - Access to browser object model (BOM).
   
 - Primitive data types. To check the type of a variable simply `typeof [VAR_NAME]`
-  - Undefined
+  - Undefined: When a variable is declared but not assigned.
   - Null: It represents a non-existent or a invalid value.
   - Boolean: It represents a logical entity (TRUE, FALSE)
   - String: It represents a series of characters and is written with quotes. Can be represented using a single or a double quote.
