@@ -43,3 +43,6 @@ function testFunction(){
   console.log(" Hello world! ");
 }
 ```
+## How to get rid of Hoisting ?
+Hoisting process makes the performance slower if there are too many declarations happening, and is a bad practice because it is unpredictable.
+Best way is to avoid `var` and instead use `const or let` and for functions best to use un-named functions and assigne it to a variable and then call it.
