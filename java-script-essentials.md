@@ -25,8 +25,8 @@
 ## What is Hoisting ? 
 Is a process of taking all local and global variable and function declarations are moved on top.
 In the example bellow variable `a`is declared and put in the top by javascript so that the console log could access it.
-`
+```
 console.log(a);  // this will still show undefined value (Meaning the variable a is declared but has no value in it)
 const a = 'test';
-`
+```
 
