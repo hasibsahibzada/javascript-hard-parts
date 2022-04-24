@@ -3,6 +3,7 @@
  
 ## What is javascript ?
 - Definition 
+  - Scripting language. (language for a runtime system) Scripting languages are usually interpreted at runtime rather than compiled).Eg: Bash, python, lisp etc.
   - object-oriented computer programming language
   - Bring intereactivity to web pages.
   - Access document object model (DOM) to manipulate/change/remove values.
