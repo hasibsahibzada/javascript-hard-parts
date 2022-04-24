@@ -9,11 +9,14 @@
   - Access document object model (DOM) to manipulate/change/remove values.
   - Access to browser object model (BOM).
   
-- Primitive data types
+- Primitive data types. To check the type of a variable simply `typeof [VAR_NAME]`
   - Undefined
-  - Null
-  - Boolean
-  - String
-  - Symbol
-  - Number
-  - Everything else is Object
+  - Null: It represents a non-existent or a invalid value.
+  - Boolean: It represents a logical entity (TRUE, FALSE)
+  - String: It represents a series of characters and is written with quotes. Can be represented using a single or a double quote.
+  - Symbol: in the ES6 version of javascript. It is used to store an anonymous and unique value. `var symbol1 = Symbol('symbol');`
+  - Number: It represents a number and can be written with or without decimals.
+  - BigInt: BigInt: store numbers which are above the limitation of the Number data type. 
+  - Object (Everything else): 
+
+- Non-primitive datatypes.
