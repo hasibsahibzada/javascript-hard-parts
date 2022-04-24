@@ -30,3 +30,16 @@ console.log(a);  // this will still show undefined value (Meaning the variable a
 const a = 'test';
 ```
 
+```
+somevariable = 'test';
+console.log(somevariable); // outputs test even when the variable is declared after it is initialized	
+var somevariable;
+```
+
+```
+testFunction();  // Outputs " Hello world! " even when the function is declared after calling
+
+function testFunction(){ 
+  console.log(" Hello world! ");
+}
+```
