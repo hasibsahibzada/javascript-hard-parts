@@ -2,7 +2,7 @@
  
  
 ## What is javascript ?
- - Definition 
+- Definition 
   - object-oriented computer programming language
   - Bring intereactivity to web pages.
   - Access document object model (DOM) to manipulate/change/remove values.
