@@ -21,7 +21,8 @@
 - Non-primitive datatypes. Store multiple and complex values. The data type is called Object
   - Object: Key pair values. `a = {test: '123', b: 'hi'} `
   - Array: ordered list of elements. `a = [1, 2, 3]`
-
+## What is the difference between `var` and `let`?
+var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. It can be said that a variable declared with var is defined throughout the program as compared to let.
 ## What is Hoisting ? 
 Is a process of taking all local and global variable and function declarations and move them on top.
 In the example bellow variable `a`is declared and put in the top by javascript so that the console log could access it.
