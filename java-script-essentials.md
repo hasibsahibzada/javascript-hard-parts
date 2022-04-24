@@ -1,4 +1,5 @@
  # Javascript Essentials.
  
  
- 1: What is javascript ?
+## What is javascript ?
+
