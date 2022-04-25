@@ -26,7 +26,7 @@
 This is where all variables and functions get declared.
 Lets look at this example bellow.
 
-```{r, attr.source='.numberLines'}
+```javascript showLineNumbers
 var foo = "bar";
 
 function bar() {
