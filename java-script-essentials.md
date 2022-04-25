@@ -62,18 +62,18 @@ This phase happens after the compilation phase where it declares the variables. 
 Is a process of taking all local and global variable and function declarations and move them on top.
 In the example bellow variable `a`is declared and put in the top by javascript so that the console log could access it.
 Only variable declarations are hoisted not initialization of it.
-```
+```javascript
 console.log(a);  // this will still show undefined value (Meaning the variable a is declared but has no value in it)
 const a = 'test';
 ```
 
-```
+```javascript
 somevariable = 'test';
 console.log(somevariable); // outputs test even when the variable is declared after it is initialized	
 var somevariable;
 ```
 
-```
+```javascript
 testFunction();  // Outputs " Hello world! " even when the function is declared after calling
 
 function testFunction(){ 
