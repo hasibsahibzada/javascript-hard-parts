@@ -28,23 +28,23 @@ Lets look at this example bellow.
 
 ```javascript
 1 var foo = "bar";
-
-function bar() {
-
-    var foo = "baz";
-
-    function baz(foo) {
-        foo = "bam";
-        bam = "yay";
-    }
-
-    baz();
-}
-
-bar();
-foo; // bar
-bam; // yay
-baz();  // error
+2
+3 function bar() {
+4
+5    var foo = "baz";
+6
+7    function baz(foo) {
+8        foo = "bam";
+9        bam = "yay";
+10    }
+11
+12    baz();
+13 }
+14
+15 bar();
+16 foo; // bar
+17 bam; // yay
+18 baz();  // error
 ```
 The compiler will start from line `30`and ask > Hey `Global scope` I have a declaration for variable named `foo` could you please declared it for me. 
 ## What is the difference between `var` and `let`?
