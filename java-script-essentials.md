@@ -26,6 +26,7 @@ var and let are both used for variable declaration in javascript but the differe
 ## What is Hoisting ? 
 Is a process of taking all local and global variable and function declarations and move them on top.
 In the example bellow variable `a`is declared and put in the top by javascript so that the console log could access it.
+Only variable declarations are hoisted not initialization of it.
 ```
 console.log(a);  // this will still show undefined value (Meaning the variable a is declared but has no value in it)
 const a = 'test';
@@ -46,4 +47,6 @@ function testFunction(){
 ```
 ### How to get rid of Hoisting ?
 Hoisting process makes the performance slower if there are too many declarations happening, and is a bad practice because it is unpredictable.
-Best way is to avoid `var` and instead use `const or let` and for functions best to use un-named functions and assigne it to a variable and then call it.
+- Best way is to avoid `var` and instead use `const or let` and for functions best to use un-named functions and assigne it to a variable and then call it.
+- Run the javascript in strict mode `"use strict"` on top of the code.
+
