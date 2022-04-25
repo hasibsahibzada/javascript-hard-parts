@@ -46,7 +46,12 @@ Lets look at this example bellow.
 17 bam; // yay
 18 baz();  // error
 ```
-The compiler will start from line `30`and ask > Hey `Global scope` I have a declaration for variable named `foo` could you please declared it for me. 
+The compiler will start from line `1`and 
+- ask > Hey `Global scope` I have a declaration for variable named `foo` could you please declared it for me.
+- move to line `3` hey `Global scope` I have a declaration for function `bar` could you please declared it for me.
+- Move inside the `bar` function, move to line 5 and ask hey `Local scope of bar` I have a declaration for variable `foo` could you please declared it for me.
+- move to line 7, declare the function of baz, move in it declare variable foo locally if it context of `baz scope`.
+- skip line 8, 9 and 12 because they are not declarations.
 ## What is the difference between `var` and `let`?
 var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. It can be said that a variable declared with var is defined throughout the program as compared to let.
 ## What is Hoisting ? 
