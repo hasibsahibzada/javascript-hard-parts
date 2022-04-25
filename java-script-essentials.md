@@ -26,7 +26,7 @@
 This is where all variables and functions get declared.
 Lets look at this example bellow.
 
-```javascript showLineNumbers
+```javascript=
 var foo = "bar";
 
 function bar() {
